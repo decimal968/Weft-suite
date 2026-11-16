@@ -1,0 +1,21 @@
+{
+  "version": "3.0.0",
+  "name": "Weft Chronicle",
+  "identifier": "weft_chronicle",
+  "author": "decimal968",
+  "github": "https://github.com/decimal968/weft-chronicle",
+  "homepage": "https://github.com/decimal968/weft-chronicle",
+  "description": "Weft System Window, Story Tracker (Bond/Spark/Heat, thoughts, secrets, arc/phase), inventory, quests and fair crypto-RNG d20 dice for the Weft preset, plus a tappable CYOA What Now? card. Sidecar LLM sync with swipe/delete/regenerate undo.",
+  "permissions": [
+    "interceptor",
+    "generation",
+    "chats",
+    "chat_mutation",
+    "characters",
+    "personas"
+  ],
+  "entry_backend": "backend.js",
+  "entry_frontend": "frontend.js",
+  "minimum_lumiverse_version": "0.1.0",
+  "interceptorTimeoutMs": 15000
+}
